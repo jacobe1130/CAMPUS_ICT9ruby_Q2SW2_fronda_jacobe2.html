@@ -1,0 +1,27 @@
+{
+	margin:0 ;
+	padding:0 ;
+}
+
+Body{background: url(https://www.pixelstalk.net/wp-content/uploads/images6/Cat-HD-Wallpaper-Free-download.jpg);
+	width: 100%;
+	height: 100vh ;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cat{position: relative;
+	background: transparent;
+	border: 3px solid #fff;}
+.cat:before
+
+{content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(89, 232, 247, .23);
+	border: 1px solid #fff;
+	z-index: -1;}
